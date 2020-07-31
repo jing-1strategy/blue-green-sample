@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-# nginx -s stops
+systemctl stop nginx
