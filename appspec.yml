@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: index.html
+  - source: /index.html
     destination: /usr/share/nginx/html
 permissions:
   - object: /usr/share/nginx/html
