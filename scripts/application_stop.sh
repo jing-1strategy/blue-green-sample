@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-systemctl stop nginx
+mv /usr/share/nginx/html/index.html /usr/share/nginx/html/index.html.backup
