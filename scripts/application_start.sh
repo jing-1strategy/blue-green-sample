@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-temp=`cat /var/www/html/index_new.html`
+temp=`cat /var/www/html/new/index.html`
 
 sed -i -e "s|<body>.*</body>|$temp|g" /var/www/html/index.html
 

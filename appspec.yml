@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /var/www/html/index_new.html
+    destination: /var/www/html/new
 permissions:
   - object: /var/www/html/index_new.html
     owner: ec2-user
