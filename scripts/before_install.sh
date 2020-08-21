@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-mv /usr/share/nginx/html/index_new.html /usr/share/nginx/html/index.html.backup
+if [ -f /var/www/html/index_new.html ]; then
+   rm -f /var/www/html/index_new.html
+fi
